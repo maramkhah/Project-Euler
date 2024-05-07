@@ -17,12 +17,12 @@ int main(void){
     unsigned int Sn= n*(M+an)/2;
 
     unsigned int nn= (limit -1)/5;
-    unsigned int W = 5;
+    const unsigned int W = 5;
     unsigned int commondiff= W;
     unsigned int ann = commondiff+(nn-1)*commondiff;
     unsigned int Sm= nn*(W+ann)/2;
 
-    unsigned int Z =15;
+    const unsigned int Z =15;
     unsigned int nnn= (limit-1)/Z;
     unsigned int comdif=Z;
     unsigned int annn= comdif+(nnn-1)*comdif;
